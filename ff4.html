@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>K4 Hypothesis</title>
 <style>
+    /* General Page Styles */
     body {
         font-family: Georgia, serif;
         line-height: 1.7;
@@ -14,27 +15,65 @@
         background-color: #fdfdfd;
         color: #222;
     }
+
     h1 {
         text-align: center;
         font-size: 2.5em;
         margin-bottom: 0.2em;
     }
+
     h2 {
         font-size: 1.8em;
         margin-top: 2em;
         margin-bottom: 0.5em;
         color: #444;
     }
+
     .monologue {
         margin-top: 20px;
         font-size: 1.1em;
     }
+
     p {
         margin-bottom: 1.5em;
     }
+
     .highlight {
         font-style: italic;
         color: #555;
+    }
+
+    /* Navigation Button Styles */
+    .nav-button-container {
+        text-align: center; /* Centers the button */
+        margin: 50px 0;    /* Space from content */
+    }
+
+    .nav-button {
+        display: inline-block;
+        background-color: #444;  /* Dark gray button */
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 12px 30px;
+        border-radius: 25px;
+        text-decoration: none;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .nav-button .arrow {
+        margin-left: 10px;
+        font-size: 1.3em;
+        transition: margin-left 0.3s;
+    }
+
+    .nav-button:hover {
+        background-color: #222;
+        transform: translateY(-2px);
+    }
+
+    .nav-button:hover .arrow {
+        margin-left: 15px; /* Arrow moves slightly on hover */
     }
 </style>
 </head>
@@ -44,9 +83,12 @@
 <h2>Monologue</h2>
 
 <div class="monologue">
-<!-- Your journal content here, same as before -->
-<p class="highlight">"Cryogenic suspension is usually described as a biological pause—metabolism slowed, chemistry arrested, life temporarily archived in ice. But the deeper question is not biological. It is neurological, and perhaps even philosophical: What happens to consciousness when the body becomes silent?"</p>
-<!-- Continue all your paragraphs from the journal entry -->
+<p class="highlight">"Cryogenic suspension is usually described as a biological pause—metabolism slowed, chemistry arrested, life temporarily archived in ice. But the deeper question is not biological. It is neurological, and perhaps even philosophical: What happens to consciousness when the body becomes silent?"</
+<!-- Navigation Button -->
+<div class="nav-button-container">
+  <a href="k4.html" class="nav-button">
+    Next <span class="arrow">→</span>
+  </a>
 </div>
 
 </body>
